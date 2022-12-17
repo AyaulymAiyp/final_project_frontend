@@ -1,0 +1,51 @@
+
+*{
+     font-family: 'WebFont', Arial, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.side{
+    display: flex;
+    align-items: end;
+    height: 50px;
+}
+.square1, .square2{
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1px;
+}
+.line{
+    height: 0px;
+    width: 20%;
+    border: 0.2px solid rgb(255, 255, 255);
+}
+.side1{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.squares{
+    margin-top: 20px;
+}
+
+.rect{
+    height: 10px;
+    width: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 3px;
+    margin-left: 1px;
+
+}
+
+@font-face{
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+    url('WebFont.woff') format('woff'),
+    url('WebFont.ttf') format('truetype'),
+    url('WebFont.svg#webfont') format('svg');
+}
