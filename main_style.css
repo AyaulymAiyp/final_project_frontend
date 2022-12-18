@@ -110,3 +110,37 @@ video{
     padding: 7px;
     cursor: pointer;
 }
+#bag{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    position: relative;
+}
+#bagelements{
+    position: absolute;
+    font-size: large;
+    width: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+    display: block;
+    word-wrap: break-word;
+    align-items: baseline;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#bagelements button{
+    background-color: transparent;
+    border: 0;
+    font-size:large;
+    color: #fff;
+
+}
+#bagelements button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    padding: 7px;
+    cursor: pointer;
+}
