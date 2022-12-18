@@ -20,9 +20,9 @@ a {
     top: 400px;
     position: fixed;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.35);
 
 }
+
 
 
 .card {
@@ -33,18 +33,26 @@ a {
     margin: 10px;
 }
 
+.side{
+    background-color: rgba(0, 0, 0, 0.499); 
+}
 
 .text {
-
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
     transition: .5s ease;
     box-shadow: inset 0 -3px 0 -1px #ffffff;
     transition: box-shadow .15s ease-in-out;
     color: black;
     line-height: 40px;
     opacity: 0;
-    height: 20px;
-    align-self: center;
-
 }
 
 .overlay {
@@ -72,8 +80,8 @@ a {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    width: 1500px;
-    overflow-x: auto;
+    width: 1800px;
+    overflow-x: scroll;
 }
 
 .text {
@@ -108,20 +116,7 @@ img {
 }
 
 
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.long:hover {
+.long:hover .rect{
     background-color: white;
 }
 
@@ -177,8 +172,27 @@ img {
         url('WebFont.svg#webfont') format('svg');
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .squares {
         display: none;
+    }
+    .cards{
+        width: auto;
+    }
+    .side{
+        transform: rotate(180deg);
+
+    }
+    .card{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+    .inside{
+        width: 100%;
+    }
+    .outside{
+        width: 100%;
     }
 }
