@@ -23,9 +23,17 @@ hr{
     margin: 5px 0 0 0;
     
 }
+
+#logo{
+    width: 130px; margin-right: 30px;
+}
+#seearchicon{
+    width: 20px;
+}
 video{
     margin: 15px;
     position: relative;
+    width:98%
     
 }
 #textonvideo{
@@ -119,6 +127,12 @@ video{
     margin: 10px;
     position: relative;
 }
+#bag h1{
+    margin-bottom: 0;
+}
+#bag p{
+   margin-top: 2px;
+}
 #bagelements{
     position: absolute;
     font-size: large;
@@ -194,6 +208,24 @@ video{
     color: #fff;
 }
 
+#btnback{
+    background-color: transparent; border: 0; margin: 0 10px; padding: 0; width: 30px; cursor: pointer;
+}
+#arrowback{
+    position: absolute; right: 253px; top: 558px; margin: 0; width:27px;
+}
+#btnforward{
+    width:30px; background-color: transparent; border: 0; margin: 0 10px; padding: 0; cursor: pointer;
+}
+#arrowf{
+    position: absolute; right: 195px; top: 558px; margin: 0; width:27px;
+}
+#strong{
+    margin-bottom: 12px;
+}
+#copyright{
+    position:absolute; top: 180px; left:15px; padding-bottom:15px; font-size: smaller;
+}
 .pradaspherenews img{
     margin: 60px 200px 20px;
     position: relative;
@@ -258,8 +290,15 @@ footer ul li a{
 #icons img{
     margin: 7px;
     cursor: pointer;
+    width:20px;
 }
-#news{
+#womencollection{
+    width: 100%; margin-right: 5px;
+}
+#mencollection{
+    width:100%
+}
+/* #news{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 50px 20px 20px 20px;
 }
@@ -272,4 +311,4 @@ footer ul li a{
 }
 .forms:hover{
     border-bottom: rgb(0, 0, 0) solid 1px;
-}
+} */
