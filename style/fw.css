@@ -1,0 +1,66 @@
+*{
+    font-family: 'WebFont', Arial, sans-serif;
+    color: white;
+}
+.bigp.img{
+    padding: 5px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+body{
+    background-color: black;
+}
+.bigp{
+    position: relative;
+    text-align: center;
+}
+.headd{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    z-index: 100;
+    font-size: 25px;
+    font-weight: bold;
+}
+.watch{
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    text-decoration: none;
+    z-index: 100;
+    padding: 5px;
+    margin: 5px;
+}
+
+.watch {
+    background-image: linear-gradient(to top, rgb(255, 255, 255) 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.5s ease;
+    color: rgb(255, 255, 255);
+}
+
+.watch:hover {
+    background-position: bottom;
+    color: black;
+    border-style: none;
+}
+
+.fixed{
+    background-color: rgb(27, 27, 27);
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.fash{
+    background-color: rgb(27, 27, 27);
+    padding: 40px;
+    margin: 5px;
+}
+
+.desc{
+    display: flex;
+    align-items: baseline;
+}
