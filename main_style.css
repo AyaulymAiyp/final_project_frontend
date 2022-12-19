@@ -298,17 +298,40 @@ footer ul li a{
 #mencollection{
     width:100%
 }
-/* #news{
+/*
+
+.forms:hover{
+    border-bottom: rgb(0, 0, 0) solid 1px;
+} */
+#news{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 50px 20px 20px 20px;
+    position: relative;
+    height: 300px;
 }
-.forms{
+#ta{
     border: none;
     outline: none;
     border-bottom: rgb(158, 158, 158) solid 1px;
     resize: none;
-    margin: 30px 30px 10px 15px;
+    margin: 40px 70px 10px 30px;
 }
-.forms:hover{
-    border-bottom: rgb(0, 0, 0) solid 1px;
-} */
+
+#contract{
+    position: absolute;
+    right:20px;
+    top: 65px;
+    word-wrap: break-word;
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#pradaproducts{
+    position: absolute;
+    top:150px;
+    right: 320px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 15px;  
+}
+

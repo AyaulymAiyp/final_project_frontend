@@ -9,7 +9,8 @@
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="main_style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;800&family=Libre+Franklin:wght@700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
     <body>
     <nav>
         <img src="pradalogo.jpg" id="logo" alt="">
@@ -69,9 +70,16 @@
 
     <div id="news">
         <h2>NEWSLETTER</h2>
-    <form action="" method="post">
         
-        <p>I wish to be contacted by email to receive Dior newsletters, personalized information on Dior products and services, invitations to events and marketing surveys in relation with :</p>
+    <form action="" method="post">
+        <input type="email" name="email" id="ta" placeholder="*Email">
+        <input type="text" name="fname" id="ta" placeholder="*First name">
+        <input type="text" name="lname" id="ta" placeholder="*Last name">
+        <p id="contract">I wish to be contacted by email to receive Prada newsletters, personalized information on Prada products and services, invitations to events and marketing surveys in relation with :</p>
+        <div id="pradaproducts">
+        <input type="checkbox" name="pradaproducts">Prada products<br>
+        <input type="checkbox" name="pradanews">Pradasphere news<br>
+    </div>
         
     </form>
 
