@@ -41,7 +41,7 @@ body{
     background-color: black;
     margin-bottom: 0;
 }
-#group{
+.group{
     display: flex;
     margin-top: 0;
     color: white;
@@ -50,63 +50,19 @@ body{
     margin-bottom: 0;
 }
 
-#brands{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 13px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-
-#investors{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 13px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#sustainability{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 13px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#projects{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 13px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#media{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 13px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#careers{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 13px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-select{
+#sel{
     background-color: black;
     border-width: 0.3px;
     border-radius: 5px;
     border-color: white;
     color: white;
 }
-
+.btn{
+    background-color: black;
+    color: white;
+    border-width: 0.3px;
+    border-radius: 5px;
+}
 video{
     margin-top: -100px;
     margin: 0;
@@ -156,7 +112,7 @@ marquee{
     justify-content: center;
     align-items: center;
 }
-#imgborder1{
+.imgborder1{
     display: flex;
     justify-content: center;
     width: 350px;
@@ -165,42 +121,16 @@ marquee{
     border-width: 0.3px;
 }
 
-#img1{
+.img1{
     display: flex;
     width: 330px;
     height: 250px;
-    object-fit: cover;
 }
-#imgborder2{
-    display: flex;
-    align-items: center;
-    width: 350px;
-    height: 270px;
-    border-color: dimgray;
-    border-width: 0.3px;
-}
-#img2{
-    display: flex;
-    width: 330px;
-    height: 250px;
-    object-fit: cover;
-}
-#imgborder3{
-    display: flex;
-    align-items: center;
-    width: 350px;
-    height: 270px;
-    border-color: dimgray;
-    border-width: 0.3px;
-}
-#img3{
-    display: flex;
-    width: 330px;
-    height: 250px;
-    object-fit: cover;
+.img1:hover{
+    transform: scale(1.5);
 }
 
-#a1{
+.p1{
     text-align: center;
     margin-bottom: 15px; 
     color:black;
@@ -208,38 +138,10 @@ marquee{
     
 }
 
-#a2{
-    text-align: center;
-    margin-bottom: 15px; 
-    color:black;
-    font-family: franklin gothic;
-}
-#a3{
-    text-align: center;
-    margin-bottom: 15px; 
-    font-family: franklin gothic;
-}
-#p1{
+.a1{
     margin-top: 5px;
     margin-bottom: 15px; 
     color:black;
-    font-family: franklin gothic;
-    text-align: center;
-}
-
-#p2{
-   
-    margin-top: 5px;
-    margin-bottom: 15px;
-    color:black; 
-    font-family: franklin gothic;
-    text-align: center;
-}
-#p3{
-    
-    margin-top: 5px;
-    margin-bottom: 15px;
-    color:black; 
     font-family: franklin gothic;
     text-align: center;
 }
@@ -279,48 +181,18 @@ marquee{
     padding-top: 70px;
     padding-bottom: 35px;
 }
-#brimg1{ 
+.brimg1{ 
     display: flex;
     width: 350px;
     height: 225px;
     object-fit: cover;
     margin-bottom: 25px;
 }
-#brimg2{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
+.brimg1:hover{
+    transform: scale(1.5);
 }
-#brimg3{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg4{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg5{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg6{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
+
+
 .brimgrow{
     display: flex;
     flex-direction: row;
@@ -353,42 +225,16 @@ marquee{
 
 }
 
-#sfimg1{
+.sfimg1{
     width: 120px;
     height: 120px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#sfimg2{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.sfimg1:hover{
+    transform: scale(1.5);
 }
-#sfimg3{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg4{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg5{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg6{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 .sust{
     display: flex;
     flex-direction: column;
@@ -464,6 +310,7 @@ input{
     border-color: white;
     border-radius: 5px;
     border-width: 0.3px;
+    color: white;
 
 }
 label{
@@ -513,7 +360,7 @@ label{
     margin-bottom: 0;
     font-size: 13px;
 }
-#group{
+.group{
     display: flex;
     margin-top: 0;
     color: white;
@@ -522,55 +369,6 @@ label{
     margin-bottom: 0;
 }
 
-#brands{
-    display: flex;
-    margin-top: 0;
-    color: white;
-   font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-
-#investors{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#sustainability{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#projects{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#media{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#careers{
-    display: flex;
-    margin-top: 0;
-    color: white;
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
 select{
     font-size: 10px;
 }
@@ -609,7 +407,7 @@ marquee{
     justify-content: center;
     align-items: center;
 }
-#imgborder1{
+.imgborder1{
     display: flex;
     justify-content: center;
     width: 500px;
@@ -618,42 +416,14 @@ marquee{
     border-width: 0.3px;
 }
 
-#img1{
-    display: flex;
-    width: 480px;
-    height: 280px;
-    object-fit: cover;
-}
-#imgborder2{
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    border-color: dimgray;
-    border-width: 0.3px;
-}
-#img2{
-    display: flex;
-    width: 480px;
-    height: 280px;
-    object-fit: cover;
-}
-#imgborder3{
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    border-color: dimgray;
-    border-width: 0.3px;
-}
-#img3{
+.img1{
     display: flex;
     width: 480px;
     height: 280px;
     object-fit: cover;
 }
 
-#a1{
+.p1{
     text-align: center;
     margin-bottom: 15px; 
     color:rgb(120, 44, 44);
@@ -661,19 +431,7 @@ marquee{
     
 }
 
-#a2{
-    text-align: center;
-    margin-bottom: 15px; 
-    color:rgb(120, 44, 44);
-    font-family: franklin gothic;
-}
-#a3{
-    text-align: center;
-    margin-bottom: 15px; 
-    color:rgb(120, 44, 44);
-    font-family: franklin gothic;
-}
-#p1{
+.a1{
     margin-top: 5px;
     margin-bottom: 15px; 
     color:black;
@@ -682,22 +440,6 @@ marquee{
     font-size: 13px;
 }
 
-#p2{
-    margin-top: 5px;
-    margin-bottom: 15px;
-    color:black; 
-    font-family: franklin gothic;
-    text-align: center;
-    font-size: 13px;
-}
-#p3{
-    margin-top: 5px;
-    margin-bottom: 15px;
-    color:black; 
-    font-family: franklin gothic;
-    text-align: center;
-    font-size: 13px;
-}
 
 .invblock{
     background-color: rgb(223, 222, 222);
@@ -723,48 +465,14 @@ marquee{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#brimg1{ 
+.brimg1{ 
     display: flex;
     width: 500px;
     height: 300px;
     object-fit: cover;
     margin-bottom: 25px;
 }
-#brimg2{
-    display: flex;
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg3{
-    display: flex;
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg4{
-    display: flex;
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg5{
-    display: flex;
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg6{
-    display: flex;
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
+
 .brimgrow{
     width: 100%;
     display: flex;
@@ -780,36 +488,7 @@ marquee{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#sfimg2{
-    width: 100px;
-    height: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg3{
-    width: 100px;
-    height: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg4{
-    width: 100px;
-    height: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg5{
-    width: 100px;
-    height: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg6{
-    width: 100px;
-    height: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 .sust{
     display: flex;
     flex-direction: column;
@@ -866,7 +545,7 @@ marquee{
 
 /* for "smaller tablets" */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 390px){
 .panel2{
     display: flex;
     flex-direction: row;
@@ -897,78 +576,13 @@ marquee{
     background-color: black;
     margin-bottom: 0;
 }
-#group{
+.group{
     display: none;
     margin-top: 0;
     color: white;
     font-size: 7px;
     padding-top: 10px;
     margin-bottom: 0;
-}
-
-#brands{
-    display: none;
-    margin-top: 0;
-    color: white;
-    font-size: 7px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-
-#investors{
-    display: none;
-    margin-top: 0;
-    color: white;
-    font-size: 7px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#sustainability{
-    display: none;
-    margin-top: 0;
-    color: white;
-    font-size: 7px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#projects{
-    display: none;
-    margin-top: 0;
-    color: white;
-    font-size: 7px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#media{
-    display: none;
-    margin-top: 0;
-    color: white;
-    font-size: 7px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-#careers{
-    display: none;
-    margin-top: 0;
-    color: white;
-    font-size: 7px;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-select{
-    background-color: black;
-    border-width: 0.3px;
-    border-radius: 5px;
-    border-color: white;
-    color: white;
-    font-size: 7px;
-}
-
-video{
-    margin: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 #marq{
@@ -983,14 +597,6 @@ video{
     font-family: franklin gothic;
 }
 
-#d{
-    display: flex;
-    width: 50px;
-    height: 3px;
-    background-color: black;
-    margin-bottom: 7px;
-}
-
 marquee{
     display: flex;
     behavior: alternate;
@@ -998,7 +604,7 @@ marquee{
     font-size: 30px;
     font-family: franklin gothic;
     margin-left: 5px;
-    width: 300;
+    width: 380px;
 }
 .onrow{
     display:flex;
@@ -1012,67 +618,32 @@ marquee{
     justify-content: center;
     align-items: center;
 }
-#imgborder1{
+.imgborder1{
     display: flex;
     justify-content: center;
-    width: 490px;
+    width: 380px;
     height: 320px;
     border-color: dimgray;
     border-width: 0.3px;
+    overflow: hidden;
 }
 
-#img1{
+.img1{
     display: flex;
-    width: 470px;
+    width: 360px;
     height: 300px;
-    object-fit: cover;
+    overflow: hidden;
+    transition: 0.25s;
 }
-#imgborder2{
-    display: flex;
-    justify-content: center;
-    width: 490px;
-    height: 320px;
-    border-color: dimgray;
-    border-width: 0.3px;
-}
-#img2{
-    display: flex;
-    width: 470px;
-    height: 300px;
-    object-fit: cover;
-}
-#imgborder3{
-    display: flex;
-    justify-content: center;
-    width: 490px;
-    height: 320px;
-    border-color: dimgray;
-    border-width: 0.3px;
-}
-#img3{
-    display: flex;
-    width: 470px;
-    height: 300px;
-    object-fit: cover;
-}
-#a1{
+
+.p1{
     text-align: center;
     margin-bottom: 15px; 
     color:black;
     font-family: franklin gothic;
 }
-#a2{
-    text-align: center;
-    margin-bottom: 15px; 
-    color:black;
-    font-family: franklin gothic;
-}
-#a3{
-    text-align: center;
-    margin-bottom: 15px; 
-    font-family: franklin gothic;
-}
-#p1{
+
+.a1{
     margin-top: 5px;
     margin-bottom: 15px; 
     color:black;
@@ -1080,22 +651,7 @@ marquee{
     text-align: center;
     font-size: 13px;
 }
-#p2{
-    margin-top: 5px;
-    margin-bottom: 15px;
-    color:black; 
-    font-family: franklin gothic;
-    text-align: center;
-    font-size: 13px;
-}
-#p3{
-    margin-top: 5px;
-    margin-bottom: 15px;
-    color:black; 
-    font-family: franklin gothic;
-    text-align: center;
-    font-size: 13px;
-}
+
 
 .invrel{
     background-color: rgb(223, 222, 222);
@@ -1118,57 +674,22 @@ marquee{
 }
 .invimg{
     display: flex;
-    width: 470px;
-    height: 320px;
+    width: 370px;
+    height: 220px;
     margin-bottom: 10px;
 }
-
 .clbrands{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#brimg1{ 
+.brimg1{ 
     display: flex;
     width: 350px;
     height: 225px;
     object-fit: cover;
     margin-bottom: 25px;
 }
-#brimg2{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg3{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg4{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg5{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
-#brimg6{
-    display: flex;
-    width: 350px;
-    height: 225px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
+
 .brimgrow{
     width: 100%;
     display: flex;
@@ -1200,42 +721,13 @@ marquee{
     background-color: white;
     margin-bottom: 7px;
 }
-#sfimg1{
-    width: 120px;
-    height: 120px;
+.sfimg1{
+    width: 370px;
+    height: 220px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#sfimg2{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg3{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg4{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg5{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#sfimg6{
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 .sust{
     display: flex;
     flex-direction: column;
@@ -1252,7 +744,7 @@ marquee{
 }
 #sustvideo{
     display: flex;
-    width: 470px;
+    width: 370px;
     height: 320px;
     margin-left: 10px;
 
@@ -1275,7 +767,7 @@ marquee{
 .sustlink{
     display: flex;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 50px;
     align-self: center;
     font-size: 10px;
 }
@@ -1287,14 +779,6 @@ marquee{
     justify-content: space-between;
 }
 
-.follow{
-    display: flex;
-    margin-left: 20px;
-    margin-right: 5px;
-    font-size: 15px;
-    font-family: franklin gothic;
-    color: white;
-}
 #logoinsta{
     display: flex;
     width: 20px;

@@ -7,30 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script src="Pg.js"></script>
 </head>
 <body>
-<!-- with adaption  -->
     <div class="panel">
         <div class="kurs">
             <p>share price: 44.15 HKD -2.54%</p>
         </div>
         <div class="panel2">
                 <h3 id="logo">PRADA Group</h3>
-                <a id="group"><b>GROUP</b></a>
-                <a id="brands"><b>BRANDS</b></a>
-                <a id="investors"><b>INVESTORS</b></a>
-                <a id="sustainability"><b>SUSTAINABILITY</b></a>
-                <a id="projects"><b>PROJECTS</b></a>
-                <a id="media"><b>MEDIA</b></a>
-                <a id="careers"><b>CAREERS</b></a> 
-                <select>
-                    <option>EN</option>
-                    <option>KZ</option>
-                    <option>RU</option>
+                <a class="group"><b>GROUP</b></a>
+                <a class="group"><b>BRANDS</b></a>
+                <a class="group"><b>INVESTORS</b></a>
+                <a class="group"><b>SUSTAINABILITY</b></a>
+                <a class="group"><b>PROJECTS</b></a>
+                <a class="group"><b>MEDIA</b></a>
+                <a class="group"><b>CAREERS</b></a> 
+                <select id="sel">
+                    <option value="en" selected>EN</option>
+                    <option value="ja">JA</option>
+                    <option value="it">IT</option>
                 </select>
+                <button class="btn">></button>
             </div>
     </div>
-<!--  -->
+
         <video autoplay muted loop="100"> 
             <source src="Prada presents Prada Fine Jewelry.mp4" type="video/mp4">
         </video>
@@ -38,32 +39,32 @@
         <div id="marq">
             <p class="phrase"><b>what's new</b></p>
             <div id="d"></div>
-            <marquee loop="100">Prefinal grades are already in portal! We are gonna get 100 for final project! I wanna be a billionaire so bad, I wanna be on the cover of Forbes magazines, smiling next to Oprah and the Queen</marquee>
+            <marquee onmouseover="this.stop(); this.style.color = 'blue'" onmouseout="this.start(); this.style.color='black'" loop="100">Prefinal grades are already in portal! We are gonna get 100 for final project! I wanna be a billionaire so bad, I wanna be on the cover of Forbes magazines, smiling next to Oprah and the Queen</marquee>
         </div>
         
         <div class="onrow">
             <div class="oncol">
-                <div id="imgborder1">
-                    <img id="img1" src="meryl-streep-devil-wears-prada.webp" atl="...">
+                <div class="imgborder1">
+                    <img class="img1" src="meryl-streep-devil-wears-prada.webp" atl="...">
                 </div>
-            <a id="a1">Meryl Streep</a> <br>
-            <a id="p1" href="https://en.wikipedia.org/wiki/Meryl_Streep">Often described as "the best actress of her generation"</a>
+            <p class="p1">Meryl Streep</p> <br>
+            <a class="a1" href="https://en.wikipedia.org/wiki/Meryl_Streep">Often described as "the best actress of her generation"</a>
         </div>
 
         <div class="oncol">
-            <div id="imgborder2">
-               <img id="img2" src="scale.jpg" alt="...">
+            <div class="imgborder1">
+               <img class="img1" src="scale.jpg" alt="...">
             </div>
-            <a id="a2">Out now!</a> <br>
-            <a id="p2" href="https://www.kinopoisk.ru/film/104992/">A smart but sensible new graduate lands a job as an assistant to Miranda Priestly</a>
+            <p class="p1">Out now!</p> <br>
+            <a class="a1" href="https://www.kinopoisk.ru/film/104992/">A smart but sensible new graduate lands a job as an assistant to Miranda Priestly</a>
         </div>
 
         <div class="oncol">
-            <div id="imgborder3">
-                <img id="img3" src="images.jpg" alt="...">
+            <div class="imgborder1">
+                <img class="img1" src="Anne-Hathaway-53.webp" alt="...">
             </div>
-            <a id="a3">Anne Hathaway</a> <br>
-            <a id="p3" href="https://en.wikipedia.org/wiki/Anne_Hathaway">She appeared on the Forbes Celebrity 100 list in 2009.</a>
+            <p class="p1">Anne Hathaway</p> <br>
+            <a class="a1" href="https://en.wikipedia.org/wiki/Anne_Hathaway">She appeared on the Forbes Celebrity 100 list in 2009.</a>
         </div>
         </div>
         
@@ -97,14 +98,14 @@
        </div>
        <div>
             <div class="brimgrow">
-                <img id="brimg1" src="cq5dam.web.1920.1920 (2).jpeg" alt="please">
-                <img id="brimg2" src="cq5dam.web.1920.1920.jpeg" alt="give">
-                <img id="brimg3" src="cq5dam.web.1920.1920 (7).jpeg" alt="us">
+                <img class="brimg1" src="cq5dam.web.1920.1920 (2).jpeg" alt="please">
+                <img class="brimg1" src="cq5dam.web.1920.1920.jpeg" alt="give">
+                <img class="brimg1" src="cq5dam.web.1920.1920 (7).jpeg" alt="us">
             </div>
             <div class="brimgrow">
-                <img id="brimg4" src="cq5dam.web.1920.1920 (4).jpeg" alt="an">
-                <img id="brimg5" src="cq5dam.web.1920.1920 (5).jpeg" alt="'A'">
-                <img id="brimg6" src="cq5dam.web.1920.1920 (1).jpeg" alt="!!!">
+                <img class="brimg1" src="cq5dam.web.1920.1920 (4).jpeg" alt="an">
+                <img class="brimg1" src="cq5dam.web.1920.1920 (5).jpeg" alt="'A'">
+                <img class="brimg1" src="cq5dam.web.1920.1920 (1).jpeg" alt="!!!">
             </div>
        </div>
         
@@ -112,14 +113,14 @@
         <p class="phrasesf"><b>social feeds</b></p> 
         <div id="sf"></div>
         <div class="sfimgrow">
-            <img id="sfimg1" src="320041549_5792389300881334_2636634031913076147_n.jpg" alt="we've">
-            <img id="sfimg2" src="319944835_716710029703542_3774353294132112181_n.jpg" alt="tried">
-            <img id="sfimg3" src="319521542_1034772757914893_2033010142943144482_n.jpg" alt="so hard">
+            <img class="sfimg1" src="320041549_5792389300881334_2636634031913076147_n.jpg" alt="we've">
+            <img class="sfimg1" src="319944835_716710029703542_3774353294132112181_n.jpg" alt="tried">
+            <img class="sfimg1" src="319521542_1034772757914893_2033010142943144482_n.jpg" alt="so hard">
         </div>
         <div class="sfimgrow">
-            <img id="sfimg4" src="319780544_149300174229479_4647826007767728726_n.jpg" alt="we didn't">
-            <img id="sfimg5" src="319928339_681708750329965_8531277287646362765_n.jpg" alt="sleep">
-            <img id="sfimg6" src="319625515_883892969410549_5812486553966406899_n.jpg" alt="so many days & nights"> 
+            <img class="sfimg1" src="319780544_149300174229479_4647826007767728726_n.jpg" alt="we didn't">
+            <img class="sfimg1" src="319928339_681708750329965_8531277287646362765_n.jpg" alt="sleep">
+            <img class="sfimg1" src="319625515_883892969410549_5812486553966406899_n.jpg" alt="so many days & nights"> 
         </div>
         
        </div>
@@ -167,7 +168,7 @@
         </div>
         <div class="onrow2">
             <!-- action: php -->
-            <form> 
+            <form action="Subscribe.php"> 
                 <label for="email">Subscribe:</label>
                 <input type="email" id="email" name="email" value="email">
                 <input type="submit" value="Submit">
