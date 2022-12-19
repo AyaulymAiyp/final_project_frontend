@@ -1,6 +1,7 @@
 body::-webkit-scrollbar {
     display: none;
   }
+  
 nav{
     display: flex;
     align-items: center;
