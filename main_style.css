@@ -259,3 +259,17 @@ footer ul li a{
     margin: 7px;
     cursor: pointer;
 }
+#news{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 20px 20px 20px;
+}
+.forms{
+    border: none;
+    outline: none;
+    border-bottom: rgb(158, 158, 158) solid 1px;
+    resize: none;
+    margin: 30px 30px 10px 15px;
+}
+.forms:hover{
+    border-bottom: rgb(0, 0, 0) solid 1px;
+}

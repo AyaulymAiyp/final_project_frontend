@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Айдана -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,6 +67,16 @@
         <button id="DISCOVERPS">DISCOVER</button>
     </div>
 
+    <div id="news">
+        <h2>NEWSLETTER</h2>
+        <textarea name="email" class="forms" cols="35" rows="1" placeholder="*Email" onfocus="news()"></textarea>
+        <textarea name="email" class="forms" cols="35" rows="1" placeholder="*Last name"></textarea>
+        <textarea name="email" class="forms" cols="35" rows="1" placeholder="*First name"></textarea>
+        <p>I wish to be contacted by email to receive Dior newsletters, personalized information on Dior products and services, invitations to events and marketing surveys in relation with :</p>
+        
+
+    </div>
+
     <footer>
         <div id="company">
             <ul style="padding: 0;">
@@ -110,6 +121,11 @@
             document.getElementById("image").src = imgs[index];
             document.getElementById("description").innerHTML = desc[index];
         });
+
+
+        function news(){
+            
+        }
     </script>
 </body>
 </html>
