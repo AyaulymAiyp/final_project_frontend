@@ -15,8 +15,7 @@ body{
     background-color: white;
 }
 .panel2{
-  
-    font-family: franklin gothic;;
+    font-family: franklin gothic;
 }
 h2{  
     margin-top: 0;
@@ -92,7 +91,8 @@ h1{
     background-position: bottom;
     color: black;
     border-style: none;
-}footer{
+}
+footer{
     position: relative;
     margin:  0;
     border-top: rgb(184, 184, 184) solid 1px;
