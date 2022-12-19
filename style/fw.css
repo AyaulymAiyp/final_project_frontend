@@ -5,9 +5,46 @@
 .bigp.img{
     padding: 5px;
     left: 0;
+    margin: 10px;
     top: 0;
     position: absolute;
 }
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0.1% 0.6%;  
+    border-bottom: gray 1px solid;
+    height: 50px;
+    
+}
+#f, #s{
+    width: 100%;
+}
+#f{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+    margin-left: 35px;
+}
+#s{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+
+}
+#s li{
+    margin: 0 50px;
+}
+#logo{
+    width: 130px; 
+}
+
 body{
     background-color: black;
 }
@@ -33,7 +70,7 @@ body{
     margin: 5px;
 }
 
-.watch {
+.watch, .morel, .discover {
     background-image: linear-gradient(to top, rgb(255, 255, 255) 50%, transparent 50%);
     background-size: 100% 200%;
     background-position: top;
@@ -41,7 +78,7 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.watch:hover {
+.watch:hover, .morel:hover, .discover:hover {
     background-position: bottom;
     color: black;
     border-style: none;
@@ -50,17 +87,89 @@ body{
 .fixed{
     background-color: rgb(27, 27, 27);
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
     display: flex;
+    width: 100%;
     justify-content: center;
+    position: relative;
+    left: -10px;
 }
 .fash{
     background-color: rgb(27, 27, 27);
     padding: 40px;
     margin: 5px;
-}
 
+}
+.im{
+    width: 100%;
+}
 .desc{
     display: flex;
     align-items: baseline;
+}
+
+.look{
+    margin: 10px;
+}
+.looks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.inside{
+    width: 335px;
+}
+.morelooks{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+.wear{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px;
+}
+.w{
+    width: 680px;
+    height: 800px;
+    position: relative;
+}
+.womens{
+    margin: 10px;
+}
+.fw{
+    position: relative;
+    z-index: 100;
+    left: 20px;
+    top: -820px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.discover{
+    position: relative;
+    z-index: 100;
+    left: 590px;
+    top: -890px;
+    text-decoration: none;
+    font-size: larger;
+    padding:5px;
+}
+.buttons{
+    display: flex;
+    align-items: baseline;
+}
+
+.cast{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.hid{
+    display: none;
+}
+@media screen and (max-width:400px){
+    .nav{
+        display: none;
+    }
 }
