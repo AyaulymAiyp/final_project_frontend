@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Айдана -->
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,34 +9,37 @@
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="main_style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;800&family=Libre+Franklin:wght@700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
     <body>
     <nav>
-        <img src="pradalogo.jpg" style="width: 130px; margin-right: 30px;" alt="">
-        <ul>
+        <ul id="f">
             <li>WOMEN</li>
             <li>MEN</li>
             <li>BAGS</li>
+            </ul>
+        <img src="pradalogo.jpg" id="logo" alt="">
+        <ul id="s">
             <li>GIFTS</li>
             <li>LINEA ROSSA</li>
-            <li>PRADASPHERE</li>
+            <li><a href="pradashpere.html" style="text-decoration: none; color: black;">PRADASPHERE</a></li>
+       
         </ul>
-        <img src="search-icon.png" style="width: 20px;" alt="">
+        
     </nav>
-    <hr>
-    <video src="main-page-video.webm" style="width:98%" autoplay loop muted></video>
+    <video src="main-page-video.webm" autoplay loop muted></video>
     <div id="textonvideo">
         <h1>Gifts</h1>
         <button class="btn">FOR HER</button>
         <button class="btn">FOR HIM</button>
     </div>
     <div class="gallery">
-        <img src="womencollection.jpg" style="width: 100%; margin-right: 5px;" alt="">
+        <img src="womencollection.jpg" id="womencollection" alt="">
         <div class="elements">
         <h1>Holiday Collection Women</h1>
         <button>DISCOVER</button>
         </div>
-        <img src="mencollection.png" style="width:100%" alt="">
+        <img src="mencollection.png" id="mencollection" alt="">
         <div class="elements2">
         <h1>Holiday Collection Men</h1>
         <button>DISCOVER</button>
@@ -46,13 +49,13 @@
     <div id="bag">
         <img src="pradagallery.png" alt="">
         <div id="bagelements">
-        <h1 style="margin-bottom: 0;">Prada Galleria</h1>
-        <p style="margin-top: 2px; ">The timeless shape of Prada Galleria reimagined in an endless array of colors and materials.</p>
+        <h1 >Prada Galleria</h1>
+        <p>The timeless shape of Prada Galleria reimagined in an endless array of colors and materials.</p>
             <button>DISCOVER MORE</button>
         </div>
     </div>
     <div id="men">
-        <video src="https://www.prada.com/content/dam/pradanux/home_page/2022/11/update_galleria/banner_bags_men/loop_DT.mp4/_jcr_content/renditions/cq5dam.video.pradanux-large.1920.1080.mp4" autoplay loop muted width="98%"></video>
+        <video src="https://www.prada.com/content/dam/pradanux/home_page/2022/11/update_galleria/banner_bags_men/loop_DT.mp4/_jcr_content/renditions/cq5dam.video.pradanux-large.1920.1080.mp4" autoplay loop muted ></video>
         <div id="menel">
         <h1>Men's Bags</h1>
         <button>DISCOVER</button>
@@ -62,34 +65,44 @@
         <h1 id="psnews">Pradasphere ___ News</h1>
         <img src="holiday2022.png" id="image" alt="">
         <h1 id="description">Holiday 2022</h1>
-        <button id="btnback" style="background-color: transparent; border: 0; margin: 0 10px; padding: 0; width: 30px; cursor: pointer;"><img src="arrowback.png" alt="" width="27px" style="position: absolute; right: 253px; top: 558px; margin: 0;"></button>
-        <button id="btnforward" style="width:30px; background-color: transparent; border: 0; margin: 0 10px; padding: 0; cursor: pointer;"><img style="position: absolute; right: 195px; top: 558px; margin: 0;" src="arrowforward.png" alt="" width="27px"></button>
+        <button id="btnback"><img src="arrowback.png" id="arrowback" alt=""></button>
+        <button id="btnforward" ><img id="arrowf" src="arrowforward.png" alt=""></button>
         <button id="DISCOVERPS">DISCOVER</button>
     </div>
 
     <div id="news">
         <h2>NEWSLETTER</h2>
-        <textarea name="email" class="forms" cols="35" rows="1" placeholder="*Email" onfocus="news()"></textarea>
-        <textarea name="email" class="forms" cols="35" rows="1" placeholder="*Last name"></textarea>
-        <textarea name="email" class="forms" cols="35" rows="1" placeholder="*First name"></textarea>
-        <p>I wish to be contacted by email to receive Dior newsletters, personalized information on Dior products and services, invitations to events and marketing surveys in relation with :</p>
         
+    <form action="index.php" method="post">
+        <input type="email" name="email" id="email" class="ta" placeholder="*Email" required>
+        <div id="hide">
+        <input type="text" name="fname" class="ta" placeholder="*First name" required>
+        <input type="text" name="lname" class="ta" placeholder="*Last name" required>
+        <p id="contract">I wish to be contacted by email to receive Prada newsletters, personalized information on Prada products and services, invitations to events and marketing surveys in relation with :</p>
+        <div id="pradaproducts">
+        <input type="checkbox" name="choice[]" value="Prada products">Prada products<br>
+        <input type="checkbox" name="choice[]" value="Pradasphere news">Pradasphere news<br>
+        <input type="submit" name="submit" value="Confirm" id="submit">
+    </div>
+</div>
+    </form>
 
     </div>
+    
 
     <footer>
         <div id="company">
-            <ul style="padding: 0;">
-                <li style="margin-bottom: 12px;"><strong>COMPANY</strong></li>
-                <li><a href="">Prada Group</a></li>
+            <ul>
+                <li id="strong"><strong>COMPANY</strong></li>
+                <li><a href="PradaGroup.html">Prada Group</a></li>
                 <li><a href="">Luna Rossa</a></li>
-                <li><a href="">Sustainability</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
                 <li><a href="">Work with us</a></li>
             </ul>
         </div>
         <div id="legal">
             <ul>
-                <li style="margin-bottom: 12px;"><strong>LEGAL TERMS AND CONDITIONS</strong></li>
+                <li id="strong"><strong>LEGAL TERMS AND CONDITIONS</strong></li>
                 <li><a href="">Legal Notice</a></li>
                 <li><a href="">Privacy Policy</a></li>
                 <li><a href="">Cookie Policy</a></li>
@@ -97,13 +110,13 @@
             </ul>
         </div>
         <div id="icons">
-            <img src="facebook.png" alt="" style="width: 20px;">
-            <img src="twitter.png" alt="" style="width: 20px;">
-            <img src="insagram.png" alt="" style="width: 20px; ">
-            <img src="youtube.png" alt="" style="width: 20px;">
-            <img src="spotify.png" alt="" style="width: 20px;">
+            <img src="facebook.png" alt="">
+            <img src="twitter.png" alt="">
+            <img src="insagram.png" alt="">
+            <img src="youtube.png" alt="">
+            <img src="spotify.png" alt="">
         </div>
-        <p style="position:absolute; top: 180px; left:15px; padding-bottom:15px; font-size: smaller;">©PRADA 2007 - 2022 | VAT n. 10115350158</p>
+        <p id="copyright">©PRADA 2007 - 2022 | VAT n. 10115350158</p>
     </footer>
     <script>
         const i = document.getElementById("image");
@@ -123,9 +136,15 @@
         });
 
 
-        function news(){
-            
-        }
+        email.addEventListener('focus', function news(){
+            document.getElementById("hide").style.display="contents";
+             document.getElementById('news').style.height="300px";
+        });
+        
+        // function news(){
+        //     document.getElementById("hide").style.display="contents";
+        //     document.getElementById('news').style.height="300px";
+        // }
     </script>
 </body>
 </html>

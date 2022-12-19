@@ -5,27 +5,45 @@ nav{
     display: flex;
     align-items: center;
     margin: 0.1% 0.6%;  
-}
-nav ul{
-    width: 97%;
-}
-nav ul li{
-    list-style: none;
-    float: left;
-    margin-right: 3%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-size: smaller; 
-    cursor: pointer; 
+    border-bottom: gray 1px solid;
+    height: 50px;
     
 }
-hr{
+
+#f, #s{
     width: 100%;
-    margin: 5px 0 0 0;
-    
 }
+#f{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+    margin-left: 35px;
+}
+#s{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+
+}
+#s li{
+    margin: 0 50px;
+}
+
+
+#logo{
+    width: 130px; 
+}
+
 video{
     margin: 15px;
     position: relative;
+    width:98%
     
 }
 #textonvideo{
@@ -119,6 +137,12 @@ video{
     margin: 10px;
     position: relative;
 }
+#bag h1{
+    margin-bottom: 0;
+}
+#bag p{
+   margin-top: 2px;
+}
 #bagelements{
     position: absolute;
     font-size: large;
@@ -194,6 +218,24 @@ video{
     color: #fff;
 }
 
+#btnback{
+    background-color: transparent; border: 0; margin: 0 10px; padding: 0; width: 30px; cursor: pointer;
+}
+#arrowback{
+    position: absolute; right: 253px; top: 558px; margin: 0; width:27px;
+}
+#btnforward{
+    width:30px; background-color: transparent; border: 0; margin: 0 10px; padding: 0; cursor: pointer;
+}
+#arrowf{
+    position: absolute; right: 195px; top: 558px; margin: 0; width:27px;
+}
+#strong{
+    margin-bottom: 12px;
+}
+#copyright{
+    position:absolute; top: 180px; left:15px; padding-bottom:15px; font-size: smaller;
+}
 .pradaspherenews img{
     margin: 60px 200px 20px;
     position: relative;
@@ -258,18 +300,65 @@ footer ul li a{
 #icons img{
     margin: 7px;
     cursor: pointer;
+    width:20px;
 }
+#womencollection{
+    width: 100%; margin-right: 5px;
+}
+#mencollection{
+    width:100%
+}
+/*
+
+.forms:hover{
+    border-bottom: rgb(0, 0, 0) solid 1px;
+} */
 #news{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 50px 20px 20px 20px;
+    position: relative;
+    height: 180px;
 }
-.forms{
+.ta{
     border: none;
     outline: none;
     border-bottom: rgb(158, 158, 158) solid 1px;
     resize: none;
-    margin: 30px 30px 10px 15px;
+    margin: 40px 70px 10px 30px;
 }
-.forms:hover{
-    border-bottom: rgb(0, 0, 0) solid 1px;
+
+#contract{
+    position: absolute;
+    right:20px;
+    top: 65px;
+    word-wrap: break-word;
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#pradaproducts{
+    position: absolute;
+    top:150px;
+    right: 320px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 15px;  
+}
+
+#submit{
+    padding: 12px 40px;
+    border-radius: 30px;
+    border: black solid 1px;
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    font-family: 'Open Sans', sans-serif;  
+
+}
+#submit:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+#hide{
+    display: none;
 }
