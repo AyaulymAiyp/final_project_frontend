@@ -307,9 +307,9 @@ footer ul li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 50px 20px 20px 20px;
     position: relative;
-    height: 300px;
+    height: 180px;
 }
-#ta{
+.ta{
     border: none;
     outline: none;
     border-bottom: rgb(158, 158, 158) solid 1px;
@@ -335,3 +335,20 @@ footer ul li a{
     font-size: 15px;  
 }
 
+#submit{
+    padding: 12px 40px;
+    border-radius: 30px;
+    border: black solid 1px;
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    font-family: 'Open Sans', sans-serif;  
+
+}
+#submit:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+#hide{
+    display: none;
+}

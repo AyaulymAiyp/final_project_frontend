@@ -1,7 +1,9 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Айдана -->
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,23 +73,26 @@
     <div id="news">
         <h2>NEWSLETTER</h2>
         
-    <form action="" method="post">
-        <input type="email" name="email" id="ta" placeholder="*Email">
-        <input type="text" name="fname" id="ta" placeholder="*First name">
-        <input type="text" name="lname" id="ta" placeholder="*Last name">
+    <form action="index.php" method="post">
+        <input type="email" name="email" id="email" class="ta" placeholder="*Email" required>
+        <div id="hide">
+        <input type="text" name="fname" class="ta" placeholder="*First name" required>
+        <input type="text" name="lname" class="ta" placeholder="*Last name" required>
         <p id="contract">I wish to be contacted by email to receive Prada newsletters, personalized information on Prada products and services, invitations to events and marketing surveys in relation with :</p>
         <div id="pradaproducts">
-        <input type="checkbox" name="pradaproducts">Prada products<br>
-        <input type="checkbox" name="pradanews">Pradasphere news<br>
+        <input type="checkbox" name="choice[]" value="Prada products">Prada products<br>
+        <input type="checkbox" name="choice[]" value="Pradasphere news">Pradasphere news<br>
+        <input type="submit" name="submit" value="Confirm" id="submit">
     </div>
-        
+</div>
     </form>
 
     </div>
+    
 
     <footer>
         <div id="company">
-            <ul style="padding: 0;">
+            <ul>
                 <li id="strong"><strong>COMPANY</strong></li>
                 <li><a href="">Prada Group</a></li>
                 <li><a href="">Luna Rossa</a></li>
@@ -131,9 +136,15 @@
         });
 
 
-        function news(){
-            
-        }
+        email.addEventListener('focus', function news(){
+            document.getElementById("hide").style.display="contents";
+             document.getElementById('news').style.height="300px";
+        });
+        
+        // function news(){
+        //     document.getElementById("hide").style.display="contents";
+        //     document.getElementById('news').style.height="300px";
+        // }
     </script>
 </body>
 </html>
