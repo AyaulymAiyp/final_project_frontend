@@ -303,6 +303,7 @@ marquee{
     display: flex;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 input{
     background-color: black;
