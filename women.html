@@ -39,49 +39,65 @@
             construction applied to soft dresses to give new forms.
         </p>
     </div>
-    <div class="first">
-        <div class="half">
-            <div class="cat">
+    <div class="all">
+        <div class="rect">
+            <div class="first">
                 <div class="pics">
                     <img src="cq5dam.web.hebebed.500.500-3.jpg" alt="" class="pic1">
-                    <img src="cq5dam.web.hebebed.500.500.jpg" alt="" class="pic2" >
+                    <img src="cq5dam.web.hebebed.500.500.jpg" alt="" class="pic2">
                 </div>
                 <p style="font-size:14px; font-weight: bolder">Double-breasted leather coat</p>
             </div>
-        </div>
-    </div>
-    <div class="first">
-        <div class="half">
-            <div class="cat">
+
+
+            <div class="first">
                 <div class="pics">
                     <img src="cq5dam.web.hebebed.500.500-4.jpg" alt="" class="pic1">
-                    <img src="cq5dam.web.hebebed.500.500-2.jpg" alt="" class="pic2" >
+                    <img src="cq5dam.web.hebebed.500.500-2.jpg" alt="" class="pic2">
                 </div>
                 <p style="font-size:14px; font-weight: bolder">Ribbed knit jersey tank top</p>
             </div>
-        </div>
-    </div>
-    <div class="first">
-        <div class="half">
-            <div class="cat">
+
+            <div class="first">
                 <div class="pics">
                     <img src="cq5dam.web.hebebed.500.500-5.jpg" alt="" class="pic1">
-                    <img src="cq5dam.web.hebebed.500.500-6.jpg" alt="" class="pic2" >
+                    <img src="cq5dam.web.hebebed.500.500-6.jpg" alt="" class="pic2">
                 </div>
                 <p style="font-size:14px; font-weight: bolder">Embroidered mesh and leather midi skirt</p>
             </div>
-        </div>
-    </div>
-    <div class="first">
-        <div class="half">
-            <div class="cat">
+            <div class="first">
                 <div class="pics">
                     <img src="cq5dam.web.hebebed.500.500-7.jpg" alt="" class="pic1">
-                    <img src="cq5dam.web.hebebed.500.500-8.jpg" alt="" class="pic2" >
+                    <img src="cq5dam.web.hebebed.500.500-8.jpg" alt="" class="pic2">
                 </div>
                 <p style="font-size:14px; font-weight: bolder">Prada Sympole leather and fabric mini bag</p>
             </div>
         </div>
+        <video style="width: 650px;" src="cq5dam.video.pradanux-large.1920.1080.mp4" autoplay loop muted></video>
     </div>
+    <div class="karusel">
+        <h1 id="photots" style="text-align: center;">Product Gallery</h1>
+        <div class="imm" style="width: 800px;">
+        <img src="cq5dam.web.840.840-3.jpg" id="image" alt="" style="width: 100%;"></div>
+        <h1 id="description" style="text-align: center;">All Products</h1>
+        <button id="btnback"><img src="arrowback.png" id="arrowback" alt=""></button>
+        <button id="btnforward" ><img id="arrowf" src="arrowforward.png" alt=""></button>
+    </div>
+    <script>
+        const i = document.getElementById("image");
+        const imgs = ['cq5dam.web.840.840-5.jpg', 'final_project_frontend/cq5dam.web.840.840-6.jpg', 'Card_2-1_DT.jpg', 'cq5dam.web.840.840.jpg', '00007-prada-fall-2022-ready-to-wear-milan-details-credit-gorunway.JPG', 'mencollection.png'];
 
+        let index = 0;
+        btnforward.addEventListener("click", function change(){
+            document.getElementById("image").src = imgs[index];
+
+            index = index >= imgs.length - 1 ? 0 : index + 1;
+        });
+        btnback.addEventListener("click", function change(){
+            index = index > 0 ? --index : imgs.length - 1;
+            document.getElementById("image").src = imgs[index];
+        });
+
+
+    </script>
 </body>
