@@ -6,8 +6,9 @@
     <link href="PG.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
     <script src="Pg.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    
 </head>
 <body>
     <div class="panel">
@@ -16,19 +17,15 @@
         </div>
         <div class="panel2">
                 <h3 id="logo">PRADA Group</h3>
-                <a class="group"><b>GROUP</b></a>
-                <a class="group"><b>BRANDS</b></a>
-                <a class="group"><b>INVESTORS</b></a>
-                <a class="group"><b>SUSTAINABILITY</b></a>
-                <a class="group"><b>PROJECTS</b></a>
-                <a class="group"><b>MEDIA</b></a>
-                <a class="group"><b>CAREERS</b></a> 
-                <select id="sel">
-                    <option value="en" selected>EN</option>
-                    <option value="ja">JA</option>
-                    <option value="it">IT</option>
-                </select>
-                <button class="btn">></button>
+                <p class="group"><b>GROUP</b></p>
+                <p class="group"><b>BRANDS</b></p>
+                <p class="group"><b>INVESTORS</b></p>
+                <p class="group"><b>SUSTAINABILITY</b></p>
+                <p class="group"><b>PROJECTS</b></p>
+                <p class="group"><b>MEDIA</b></p>
+                <p class="group"><b>CAREERS</b></p> 
+
+                <!-- <button onclick="alertUser()">KZ</button> -->
             </div>
     </div>
 
@@ -168,7 +165,13 @@
         </div>
         <div class="onrow2">
             <!-- action: php -->
-            <form action="Subscribe.php"> 
+            <!-- <form action="Subscribe.php"> 
+                <label for="email">Subscribe:</label>
+                <input type="email" id="email" name="email" value="email">
+                <input type="submit" value="Submit">
+              </form>  -->
+              <!-- mail to someone -->
+              <form action="mailto:someone@example.com" method="post" enctype="text/plain"> 
                 <label for="email">Subscribe:</label>
                 <input type="email" id="email" name="email" value="email">
                 <input type="submit" value="Submit">
@@ -177,6 +180,11 @@
         
     </div>
        
+    <script>
+        function alertUser() {
+        alert("Unable to change language.n\ Wait till admin is improving her skills");
+    }
+    </script>
 
 </body>
 </html>
