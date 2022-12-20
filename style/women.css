@@ -75,4 +75,31 @@ nav{
     flex-wrap: wrap;
     width: 50%;
   }
+  .all{
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  #btnback{
+    background-color: transparent; border: 0; cursor: pointer;
+}
+#arrowback{
+    position: absolute; margin: 0; width:27px;
+}
+#btnforward{
+    width:30px; background-color: transparent; cursor: pointer;
+}
+#arrowf{
+    position: absolute;  margin: 0; width:27px;
+}
+.karusel img{
+    margin: 60px 200px 20px;
+    position: relative;
+}
+.pradaspherenews h1{
+    color: #fff;
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+}

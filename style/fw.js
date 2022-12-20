@@ -1,3 +1,3 @@
 function MoreLook(){
-    document.getElementsByClassName("cast").style.display = 'block';
+    document.getElementById("morel").style.display = 'block';
 }
