@@ -10,25 +10,28 @@
     <link rel="stylesheet" href="style/fw.css">
     <link href="http://fonts.cdnfonts.com/css/planet-kosmos" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/neuzeits" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/Users/altosh/Documents/GitHub/final_project_frontend/style/fw.js"></script>
 </head>
 
 <body>
-    <nav>
-        <ul id="f">
-            <li>WOMEN</li>
-            <li>MEN</li>
-            <li>BAGS</li>
-        </ul>
-        <img src="pradalogo.jpg" id="logo" alt="">
-        <ul id="s">
-            <li>GIFTS</li>
-            <li>LINEA ROSSA</li>
-            <li><a href="pradashpere.html" style="text-decoration: none; color: black;">PRADASPHERE</a></li>
+    <div class="hdr">
+        <nav>
 
-        </ul>
+            <ul id="f">
+                <li>WOMEN</li>
+                <li>MEN</li>
+                <li>BAGS</li>
+            </ul>
+            <img src="pradalogo.jpg" id="logo" alt="">
+            <ul id="s">
+                <li>GIFTS</li>
+                <li>LINEA ROSSA</li>
+                <li><a href="pradashpere.html" style="text-decoration: none; color: black;">PRADASPHERE</a></li>
 
-    </nav>
+            </ul>
+
+        </nav>
+    </div>
     <div class="bigp" style="width: 100%">
         <img src="hero_free_DT.jpg" alt="" style="width: 100%;">
         <p class="headd">FW22 Womenswear and Menswear</p>
@@ -276,7 +279,7 @@
     </div>
     <div class="morelooks">
 
-        <button class="morel" onclick="MoreLooks(this)" type="button"
+        <button class="morel" onclick="MoreLook()" type="button"
             style="padding: 5px; background-color:rgba(240, 248, 255, 0); border-style: none; font-size: 16px; cursor: pointer; ">Discover
             more looks</button>
     </div>
@@ -308,13 +311,37 @@
     <div class="castp">
         <img src="Prada-FW22-Parade-02.jpg" alt="" style="width:100%">
     </div>
+    <footer>
+        <div id="company">
+            <ul>
+                <li id="strong"><strong>COMPANY</strong></li>
+                <li><a href="PradaGroup.html">Prada Group</a></li>
+                <li><a href="#">Luna Rossa</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="#">Work with us</a></li>
+            </ul>
+        </div>
+        <div id="legal">
+            <ul>
+                <li id="strong"><strong>LEGAL TERMS AND CONDITIONS</strong></li>
+                <li><a href="#">Legal Notice</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+        <div id="icons">
+            <img src="facebook.png" alt="">
+            <img src="twitter.png" alt="">
+            <img src="insagram.png" alt="">
+            <img src="youtube.png" alt="">
+            <img src="spotify.png" alt="">
+        </div>
+        <p id="copyright">©PRADA 2007 - 2022 | VAT n. 10115350158</p>
+    </footer>
 </body>
 
 
-<script>
-    function MoreLooks(element) {
-            document.getElementsByClassName("hid").style.display = 'block';
-        
-    }
-</script>
+
+
 </html>
