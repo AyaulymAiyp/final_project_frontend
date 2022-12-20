@@ -14,9 +14,14 @@ body{
     margin-bottom: 0;
     background-color: white;
     margin-bottom: 25px;
+    z-index: +1;
 }
 .panel2{
     font-family: franklin gothic;
+}
+.panel2 a{
+    text-decoration: none;
+    color: black;
 }
 .back{
     margin-left: 20px;
@@ -55,7 +60,7 @@ p{
     position: absolute;
     font-family: franklin gothic;
     top: 270px;
-    left: 600px;
+    left: 675px;
 }
 #link1{
     position: absolute;
@@ -209,7 +214,7 @@ footer ul li a{
     #txt2{
         position: absolute;
         font-family: franklin gothic;
-        top: 820px;
+        top: 1060px;
         left: 20px;
     }
     #link1{
@@ -231,7 +236,7 @@ footer ul li a{
     #link2{
         position: absolute;
         font-family: franklin gothic;
-        top: 800px;
+        top: 1050px;
         left: 20px;
         background-image: linear-gradient(to top, rgb(255, 255, 255) 50%, transparent 50%);
         background-size: 100% 200%;
