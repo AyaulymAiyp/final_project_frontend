@@ -98,7 +98,6 @@ body{
     background-color: rgb(27, 27, 27);
     padding: 40px;
     margin: 5px;
-
 }
 .im{
     width: 100%;
@@ -159,7 +158,6 @@ body{
     display: flex;
     align-items: baseline;
 }
-
 .cast{
     display: flex;
     flex-wrap: wrap;
@@ -168,8 +166,68 @@ body{
 .hid{
     display: none;
 }
+footer{
+    position: relative;
+    margin: 15px 0 0;
+    border-top: rgb(184, 184, 184) solid 1px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:300;
+    font-size: 15px;
+}
+footer ul li{
+    list-style: none;
+    margin: 5px;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#company{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+#legal{
+    position: absolute;
+    left: 350px;
+    top: 20px;
+}
+#icons{
+    position: absolute;
+    right: 15px;
+    top: 70px;
+}
+#icons img{
+    margin: 7px;
+    cursor: pointer;
+    width:20px;
+}
 @media screen and (max-width:400px){
-    .nav{
+    body{
+        width: 400px;
+    }
+    .hdr{
         display: none;
+    }
+    .headd{
+        font-size: 14px;
+        position: absolute;
+        left: 70px;
+    }
+    .inside{
+        width: 350px;
+    }
+    .watch{
+        position: absolute;
+        left: 100px;
+    }
+    .w{
+        width: 100%;
+    }
+    .sh, .fh{
+        text-align: center;
+        align-items: center;
     }
 }
